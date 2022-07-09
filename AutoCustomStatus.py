@@ -25,6 +25,7 @@ password = "YOUR PASSWORD"
 #make sure that the cookies are stored in there
 profile_folder = "C:\\Users\\<user_name>\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\<profile_name>"
 
+#enter your custom messages here
 custom_status_list = ["ABC", "DEF", "GHI", "JKL"]
 
 def start_driver():
@@ -32,14 +33,14 @@ def start_driver():
     options_firefox.headless = headless_mode
     if (is_persistent_profile):
 
-        #for existing profile
+        #for an existing profile
         fp = webdriver.FirefoxProfile(profile_folder)
         driver = webdriver.Firefox(fp, options=options_firefox, service=Service(executable_path=GeckoDriverManager().install()))
         time.sleep(1)
         driver.get('https://discord.com/channels/@me')
 
     else:
-        #for new profile
+        #for a new profile
         driver = webdriver.Firefox(options=options_firefox, service=Service(executable_path=GeckoDriverManager().install()))
         time.sleep(1)
         driver.get('https://discord.com/channels/@me')
