@@ -9,4 +9,4 @@ This program updates selected custom status messages automatically.
 3. run the program: python3 AutoCustomStatus.py or: AutoCustomStatus.py
 
 
-If the discord website changes, the xpaths may changes, so feel free to update these.
+If the discord website changes, the xpaths might changes, so feel free to update these.
