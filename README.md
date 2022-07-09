@@ -1,5 +1,5 @@
 # DiscordAutoCustomStatus
-This program updates selected custom status messages automatic.
+This program updates selected custom status messages automatically.
 
 
 **Execution:**
