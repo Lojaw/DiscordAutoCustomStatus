@@ -9,7 +9,7 @@ from selenium.webdriver.common.by import By
 
 #edit the values to your needs
 
-update_custom_status_time = 7   #5sec is the minimum, do not reduce the default value
+update_custom_status_time = 7   #5sec is the minimum
 is_random_custom_status = False
 is_persistent_profile = True
 headless_mode = True            #show/hide browser window
