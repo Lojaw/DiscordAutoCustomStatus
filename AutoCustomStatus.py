@@ -28,6 +28,9 @@ profile_folder = "C:\\Users\\<user_name>\\AppData\\Roaming\\Mozilla\\Firefox\\Pr
 #enter your custom messages here
 custom_status_list = ["ABC", "DEF", "GHI", "JKL"]
 
+
+
+
 def start_driver():
     options_firefox = webdriver.FirefoxOptions()
     options_firefox.headless = headless_mode
