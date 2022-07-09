@@ -2,7 +2,7 @@
 This program updates selected custom status messages automatic.
 
 
-Execution:
+**Execution:**
 
 1. install the requirements: pip3 install -r requirements.txt
 2. open AutoCustomStatus.py with any editor and edit the values to your needs
